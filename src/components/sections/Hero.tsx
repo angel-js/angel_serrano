@@ -87,8 +87,7 @@ export default function Hero() {
             <div className="relative">
               <div className="absolute inset-0 rounded-full border-2 border-dashed border-neutral-200 scale-110" />
               <div className="w-64 h-64 md:w-72 md:h-72 rounded-full bg-neutral-100 border border-neutral-200 flex items-center justify-center overflow-hidden relative">
-                <span className="text-5xl font-extrabold text-neutral-300 select-none">AS</span>
-                {/* <img src="/photo.jpg" alt="Angel Serrano" className="w-full h-full object-cover" /> */}
+                {<img src="/photo.JPG" alt="Angel Serrano" className="w-full h-full object-cover" />}
               </div>
               <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-1.5 bg-white border border-neutral-200 rounded-full px-3 py-1 shadow-sm">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
